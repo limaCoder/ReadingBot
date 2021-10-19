@@ -5,11 +5,11 @@ utterance.lang = "pt-BR"; // acessando as propriedades do objeto
 utterance.rate = 2;
 
 function speak() {
-	speechSynthesis.speak(utterance); // speechSynthesis objeto global do JS para fala
+	speechSynthesis.speak(utterance); // speechSynthesis - objeto global do JS para fala
 }
 
 function stop() {
-  speechSynthesis.cancel();
+	speechSynthesis.cancel();
 }
 
 function setText(event) {
